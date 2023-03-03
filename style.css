@@ -205,3 +205,145 @@ background-color: lightblue;
     padding-left: 50%;
 }
 
+
+
+@media screen and (max-width: 600px){
+    .firstpage{
+        font-size: 20px;
+    }
+
+  
+    .name span{
+        height: 100%;
+        width: 75px;   
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: rgb(59, 59, 80);
+        background-color: rgb(44, 196, 196);
+        top: auto;
+       
+     
+       
+    }
+    .navigationbar li{
+        padding: 10px;
+        
+        text-align: center;
+      
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        
+        color:rgb(44, 196, 196);
+}
+.profilepicture{
+    background-image:url("profile.jpg");
+    background-position: center;
+    width: 500px;
+    height: 460px;
+  
+}
+.aboutme {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 25px;
+    font-size: 25px;
+    
+    color: rgb(19, 17, 17);
+    font-weight: bold;
+    border-right: 5px solid;
+    overflow: scroll;
+   
+}.AMexplanation{
+    font-size: 15px;
+    padding-left: 120px;
+    padding-right: 10px;
+    padding-top: 50px;
+    color: rgb(19, 17, 17);
+}
+.works{
+
+    padding-top: 25px;
+    padding-bottom: 640px;
+    padding-left: 12px;
+    padding-right: 25px;
+    font-size: 25px;
+    float:left;
+    color: rgb(19, 17, 17);
+    font-weight: bold;
+    border-right: 5px solid;
+   
+}
+
+.projectimages{
+    height: 90px;
+    width: 100px;
+    overflow:scroll;
+  
+    
+}
+
+.projects{
+    display: grid;
+    column-gap: 25px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color:whitesmoke;
+    padding: 10px;
+    position: absolute;
+    top: 940px;
+    left: 125px;
+    height: 250px;
+    width: 350px;
+
+    
+}
+
+#image1{
+    background-image:url("pic1.jpeg");
+    grid-column: 1 / span 2 ;
+    grid-row: 1 ;
+    height: 190px;
+    width: 350px;
+
+}
+.contact h1{
+    
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
+    font-size: 25px;
+  
+    color: rgb(19, 17, 17);
+    font-weight: bold;
+    border-right: 5px solid;
+    height: 50px;
+    overflow-y: scroll;
+   
+
+}
+.sociallinks li{
+    padding: 20px;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: gray;
+    position: relative;
+    right: 206px;
+    }
+
+
+    .lastpage{
+
+      
+        
+        font-size: 15px;
+        padding-left: 25%;
+    
+
+    }
+    
+}
